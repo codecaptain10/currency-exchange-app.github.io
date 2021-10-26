@@ -1,0 +1,100 @@
+/*1: div exchange, changeFrom, changeTo, course*/
+
+.exchange {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    opacity: 0.90;
+    height: 60%;
+    width: 70%;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.changeFrom {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    opacity: 0.7;
+    height: 75%;
+    width: 45%;
+}
+
+.changeTo {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    opacity: 0.7;
+    height: 75%;
+    width: 45%;
+}
+
+.course {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    opacity: 0.7;
+    height: 15%;
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: lightseagreen;
+}
+
+
+/*2: h2, input, combobox*/
+
+h2 {
+    opacity: 1;
+    color: black;
+    position: relative;
+    top: 5%;
+    color: black;
+}
+
+.howMuchFrom,
+.howMuchTo {
+    position: relative;
+    top: 10%;
+    width: 60%;
+    height: 12%;
+    background-color: white;
+    border: 2px black solid;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+.currency-list {
+    position: relative;
+    top: 30%;
+    width: calc(60% + 10px);
+    height: calc(12% + 10px);
+    background-color: white;
+    border: 2px black solid;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica,
+}
+
+.currency-list option {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: lightgrey;
+}
+
+
+/*3: Course*/
+
+#course {
+    position: relative;
+    justify-content: center;
+}
+
+span {
+    position: relative;
+    top: 5%;
+    font-size: 40px;
+}
